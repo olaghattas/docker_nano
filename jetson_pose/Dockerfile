@@ -14,6 +14,8 @@ WORKDIR $ROS_WS/src
 RUN git clone https://github.com/olaghattas/human_pose_detection.git
 RUN git clone https://github.com/olaghattas/opencv_cam.git
 RUN git clone https://github.com/ptrmu/ros2_shared.git
+RUN git clone https://github.com/AprilRobotics/apriltag.git
+RUN git clone https://github.com/olaghattas/apriltag_ros.git
 
 WORKDIR $ROS_WS
 
